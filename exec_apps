@@ -1,0 +1,8 @@
+#!/bin/sh
+(nohup alacritty &)
+(nohup brave-browser --restore-last-session &)
+(nohup discord-ptb &)
+(nohup telegram-desktop &)
+sleep 1
+(nohup i3 restart &)
+(i3-msg "workspace 2" &)

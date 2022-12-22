@@ -1,0 +1,4 @@
+#!/bin/sh
+
+./load_layouts
+./exec_apps
